@@ -1,0 +1,16 @@
+---
+title: "Analysis"
+output: pdf_document
+---
+
+### Importing Sequences File
+```{r}
+BbSeq<-read.csv("./Sequence Data/Sequences.csv")
+```
+
+```{r}
+gsub(c("A","T","G","C"), BbSeq)
+
+BbSeq[1:3,grep]
+```
+
